@@ -1,5 +1,4 @@
 
-
 (function($) {
 
 	skel.breakpoints({
@@ -83,21 +82,21 @@
 			});
 
 		// Gallery.
-		//	$window.on('load', function() {
+			$window.on('load', function() {
 
-		//		var $gallery = $('.gallery');
+				//var $gallery = $('.gallery');
 
-			//	$gallery.poptrox({
-			//		baseZIndex: 10001,
-			//		useBodyOverflow: false,
-			//		usePopupEasyClose: false,
-			//		overlayColor: '#1f2328',
-			//		overlayOpacity: 0.65,
-			//		usePopupDefaultStyling: false,
-			//		usePopupCaption: true,
-			//		popupLoaderText: '',
-			//		windowMargin: 50,
-			//		usePopupNav: true
+				//$gallery.poptrox({
+				//	baseZIndex: 10001,
+				//	useBodyOverflow: false,
+				//	usePopupEasyClose: false,
+				//	overlayColor: '#1f2328',
+				//	overlayOpacity: 0.65,
+				//	usePopupDefaultStyling: false,
+				//	usePopupCaption: true,
+				//	popupLoaderText: '',
+				//	windowMargin: 50,
+				//	usePopupNav: true
 			//	});
 
 				// Hack: Adjust margins when 'small' activates.
@@ -163,24 +162,6 @@
 								enter:		function() { $(this).removeClass('inactive'); },
 								leave:		function() { $(this).addClass('inactive'); }
 							});
-							// Event listeners
-    $(".btn-info").on("click", function() {
-      var textareaValue = $("#message").val();
-      if (textareaValue === "") {
-        $("#message").css("border", "2px solid red");
-        return true;
-      } else {
-        var comment = $("#message").val();
-        console.log(comment);
-        $("#visible-comment").html("Thank you. We have received your message");
-        $("#message").hide();
-        $("#name").hide();
-        $("#email").hide();
-        $("#phone").hide();
-        $(".btn-info").hide();
-        $("label").hide();
-	return false;
-}
 
 				};
 
@@ -249,3 +230,4 @@
 	});
 
 })(jQuery);
+

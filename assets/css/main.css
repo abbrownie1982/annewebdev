@@ -1373,6 +1373,8 @@ body.is-touch .poptrox-popup .closer {
 .gallery article .image {
 	margin: 0;
 	display: block;
+	padding: 1px;
+	border: 3px solid #D3D3D3;
 }
 
 .gallery article:nth-last-child(1n) {
@@ -1923,21 +1925,15 @@ body {
 	margin: 0;
 }
 
-.main.style2>.content tr td{
-	border-collapse:separate;
-    border-spacing:0 5px;
-}
 table {
-    border-collapse: collapse;
-    
-    width: 100%;
-}
-td {
-    width: 50%;
-    height: 2em;
-   
+	border-collapse: collapse;
+	width: 100%;
 }
 
+td {
+	width: 50%;
+	height: 2em;
+}
 
 .main.style2.left {
 	-moz-justify-content: -moz-flex-start;
@@ -2070,9 +2066,8 @@ body.is-touch .main {
 		max-width: calc(100% - 1.5em);
 	}
 	.main.style1 h3 {
-		padding-top: 5px;
+		padding-top: 10px;
 	}
-	
 }
 
 
