@@ -26,6 +26,7 @@
 				}, 0);
 			});
 
+
 		// Touch mode.
 			skel.on('change', function() {
 
@@ -98,6 +99,7 @@
 				//	windowMargin: 50,
 				//	usePopupNav: true
 			//	});
+			
 
 				// Hack: Adjust margins when 'small' activates.
 					skel
