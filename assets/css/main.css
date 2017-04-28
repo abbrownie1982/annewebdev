@@ -1810,7 +1810,7 @@ body.is-touch .poptrox-popup .closer {
 	}
 	#header h1 {
 		text-align: center;
-		position: relative;
+		opacity: 0;
 		left: 0;
 		top: 0;
 		height: 2.5em;
