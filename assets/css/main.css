@@ -1804,7 +1804,23 @@ body.is-touch .poptrox-popup .closer {
 }
 
 @media screen and (max-width: 736px) {
-	
+	#header {
+		height: 2.5em;
+		line-height: 2.5em;
+	}
+	#header h1 {
+		text-align: center;
+		left: 0;
+		top: 0;
+		height: 2.5em;
+		line-height: 2.5em;
+	}
+	#header h1 a {
+		font-size: 1em;
+	}
+	#header nav {
+		display: none;
+	}
 }
 
 body {
