@@ -7,7 +7,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<meta name="description" content="Anne Brown. Front-end Web Developer. Available for hire on projects." <!--[if lte IE 8]>
-	<script src="assets/js/ie/html.js"></script>
+	<script src="assets/js/ie/html5shiv.js"></script>
 	<![endif]-->
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<!--[if lte IE 8]>
@@ -54,7 +54,7 @@
 			<header>
 				<h2>What I Do</h2>
 			</header>
-			<p>I am a Web Developer and Designer living in Orlando, FL. I love coding and designing anything and everything, and would love to create something new with you!</p>
+			<p>I am a Web Developer and Designer living in Orlando, FL. I create responsive websites that allow the user to experience your website in the best and most appropriate way suited to the device they are using.</p>
 			<h3>My Skills:</h3>
 			<table>
 				<tbody>
@@ -132,10 +132,9 @@
 					<a href="http://windermerepeds.bitballoon.com/" target = "_blank" class="image fit"><img src="images/pedcover.jpg" title="Pediatrics Site" alt="" />
 					<span class="text-content"><span>Pediatrics Home Page redo. Using HTML, CSS, Javascript, jQuery</span></span></a>
 				</article>
-				<article class="from-left">
-					<a href="http://annebrowndesigns-com.stackstaging.com/" target = "_blank" class="image fit"><img src="images/CO.jpg" title="Alternate Portfolio Site" alt="" />
-					<span class="text-content"><span>Portfolio example. Using HTML, CSS, Javascript, jQuery</span></span></a>
-				</article>
+				<!--<article class="from-right">
+					<a href="images/fulls/06.jpg" class="image fit"><img src="images/thumbs/06.jpg" title="Bent IX" alt="" /></a>
+				</article>-->
 			</div>
 
 		</div>
@@ -148,7 +147,7 @@
 				<h2>Want to work together?</h2>
 				<p>I'm currently accepting new projects and would love to hear about yours. Please take a few minutes to tell me about it.</p>
 				<p>312.890.6069</p>
-				<a href="mailto:anbrownie1@gmail.com">Email Me!</a> 
+				<a href="mailto:info@annecode.com">Email Me!</a> 
 			</header>
 			<div class="box">
 				<form action="https://formspree.io/anbrownie1@gmail.com" method="post" name="login">
